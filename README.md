@@ -59,3 +59,11 @@ python3 render-schedule.py \
   - One pointer tracks the expected user in the rotation.
   - Another pointer iterates through the overrides.
 - The result is a list of `ScheduleEntry` objects, sorted in chronological order.
+
+<br><br>
+## **Potential Product Features**
+1. Naturally, a UI for the schedule.
+2. Integrate with Incident.io's incident management so the person who is on-call is notified.
+3. Automatically notify users when their shifts start. They can choose an amount of time before the start of their shifts for the notification to be sent e.g. 15 minutes prior.
+4. When a user wants part or all of their shift covered, notify all other users so someone can volunteer. Users can set times they are willing to cover shifts so that they are prioritised/notified first. Naturally, swapping shifts can also be integrated. Perhaps a record or log will need to maintained.
+5. Perhaps an AI that will reduce the need for overrides. It can analyse when users frequently request someone to cover their shifts, and suggest a new schedule to work around those times, whilst allocating fairly between users. Users can also give their preferred work times to the AI.
