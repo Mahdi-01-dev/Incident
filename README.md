@@ -21,3 +21,11 @@ python render-schedule.py \
     --overrides=overrides.json \
     --from="START_TIME" \
     --until="END_TIME"
+
+or
+
+python3 render-schedule.py \
+    --schedule=schedule.json \
+    --overrides=overrides.json \
+    --from="START_TIME" \
+    --until="END_TIME"
